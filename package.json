@@ -1,0 +1,24 @@
+{
+  "name": "git_test",
+  "version": "1.0.0",
+  "description": "This is a test directory to lean Git and Node",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhil-psn/Git_Test.git"
+  },
+  "author": "Nikhil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikhil-psn/Git_Test/issues"
+  },
+  "homepage": "https://github.com/nikhil-psn/Git_Test#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
